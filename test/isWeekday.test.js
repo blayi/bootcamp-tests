@@ -1,10 +1,10 @@
 describe('isWeekday' , function(){
-    it('confirms if its a weekday' , function(){
+    it('if the parameter passed in is a day of the week' , function(){
 assert.equal(isWeekday('Monday'), true);
 
   });
 
-    it('confirm that its not a weekday ' , function(){
+    it('if the parameter passed in is not a day of the week .' , function(){
 assert.equal(isWeekday('Saturday'), false);
   });
 });

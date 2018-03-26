@@ -1,10 +1,10 @@
-describe('CountRegNO  From Gauteng' , function(){
-    it('confirm tht RegNO is from Gauteng' , function(){
+describe('CountRegNo' , function(){
+    it('if a registration number is for Gauteng' , function(){
         assert.equal(CountRegNO("0123GP"), true);
 
 
     });
-        it('RegCheck is Not From Gauteng' , function(){
+        it('if a registration number is not for Gauteng' , function(){
             assert.equal(CountRegNO("CP012"), false);
 
     });
